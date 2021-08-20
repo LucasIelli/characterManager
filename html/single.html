@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../scss/single.css" />
+    <title>Character</title>
+  </head>
+  <body>
+    <!-- Static part of the webpage-->
+    <section class="pageTitle">
+      <a class="homeLink" href="index.html"><h2>Character Manager</h2></a>
+    </section>
+    <hr class="titleLine" />
+    <!-- Main Content for the main menu -->
+    <main class="charCards">
+      <!-- Template Section -->
+      <section class="material">
+        <img
+          src="../Images/helloworld.webp"
+          alt="character image"
+          id="charIMG"
+        />
+        <li class="characterList" id="characterList">
+          <h2 class="charName" id="charName"></h2>
+          <h4 class="shortDescr" id="shortDescr"></h4>
+          <p class="longDescr" id="longDescr"></p>
+          <div class="buttons">
+            <div>
+              <a href="#" class="charAdd charUpdate" id="charUpdate"
+                >Update character</a
+              >
+            </div>
+            <div>
+              <a href="#" class="charAdd charDelete" id="charDelete"
+                >Delete character</a
+              >
+            </div>
+          </div>
+        </li>
+        <ol id="target"></ol>
+      </section>
+    </main>
+    <!-- Footer Section even if we don't need it -->
+    <footer></footer>
+    <!-- Of course that's a script -->
+    <script type="module" src="../js/single.js"></script>
+  </body>
+</html>

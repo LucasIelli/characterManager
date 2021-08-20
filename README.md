@@ -1,4 +1,4 @@
-<img src="helloworld.webp" width="125" height="125"/>
+<img src="/Images/helloworld.webp" width="125" height="125"/>
 
 # <u>Character Manager WebSite</u>
 

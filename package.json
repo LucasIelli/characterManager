@@ -1,0 +1,23 @@
+{
+  "name": "charactermanager",
+  "version": "1.0.0",
+  "description": "<img src=\"/Images/helloworld.webp\" width=\"125\" height=\"125\"/>",
+  "scripts": {
+    "dev": "parcel ./html/*.html",
+    "build": "rm -rf .cache dist && parcel build ./html/*.html --out-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasIelli/characterManager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasIelli/characterManager/issues"
+  },
+  "homepage": "https://github.com/LucasIelli/characterManager#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
